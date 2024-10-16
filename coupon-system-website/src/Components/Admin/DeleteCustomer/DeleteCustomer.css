@@ -1,0 +1,48 @@
+/* DeleteCustomer.css */
+
+.DeleteCustomer {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #c2baba;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .DeleteCustomer h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .DeleteCustomer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .DeleteCustomer button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .DeleteCustomer button:first-child {
+    margin-right: 10px;
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .DeleteCustomer button:last-child {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .DeleteCustomer button:hover {
+    background-color: #e74c3c;
+    color: white;
+  }
+  

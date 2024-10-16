@@ -1,0 +1,31 @@
+.PurchaseC {
+  text-align: center;
+  background-image: url("../../../assets/Images/giphy-h.gif");
+  background-size: cover;
+}
+
+.pa {
+  font-size: 50px;
+  animation: colorChange 3s alternate infinite;
+}
+.gb {
+  max-width: 100%;
+  height: auto;
+}
+
+.as {
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  50% {
+    color: rgb(0, 255, 179);
+  }
+  100% {
+    color: red;
+  }
+}

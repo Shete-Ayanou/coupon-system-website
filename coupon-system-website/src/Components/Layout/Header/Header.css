@@ -1,0 +1,43 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  /* background-color: #f0f0f0; */
+}
+
+.Header h1 {
+  margin: 0;
+  animation: colorChange 3s alternate infinite, textMove 3s ease-in-out infinite;
+
+}
+
+.Header img {
+  width: 180px;
+  height: auto;
+
+}
+
+@keyframes colorChange {
+  0%, 100% {
+    color: #FF5733; /* צבע התחילי */
+  }
+  50% {
+    color: #42A5F5; /* צבע הסיום */
+  }
+}
+
+@keyframes textMove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); /* התזוזה נעשית לחצי הזמן */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+

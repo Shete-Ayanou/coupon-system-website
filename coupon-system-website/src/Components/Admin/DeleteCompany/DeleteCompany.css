@@ -1,0 +1,37 @@
+/* DeleteCompany.css */
+
+.DeleteCompany {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #c2baba;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .DeleteCompany h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .DeleteCompany p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .DeleteCompany button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .DeleteCompany button:hover {
+    background-color: #e74c3c;
+    color: white;
+  }
+  

@@ -1,0 +1,50 @@
+.Map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+  .I2 {
+    width: 150px; /* או גודל שאתה מעוניין */
+    height: 150px;
+    animation: rotateAnimation 5s linear infinite;
+  }
+
+  .PO {
+    width: 200px; /* או הגודל שאתה רוצה */
+    position: fixed;
+    top:30%; /* מיוחס לאמצע האנימציה */
+    right: -200px; /* התמונה מתחילה מימין */
+    transform: translateY(-50%); /* כדי שהתמונה תישאר ממורכזת לאנימציה */
+    animation: slideFromRight 20s linear infinite;
+    z-index: 3; /* הגדרה גבוהה ביותר, מעל כל התמונות האחרות */
+  }
+
+  
+  
+  @keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes slideFromRight {
+    0% {
+      right: -00px;
+    }
+    100% {
+      right:  60%; /* התמונה תסתיים ממורכזת */
+    }
+  }
+  
+  
+  
+  
+  
+  
+  

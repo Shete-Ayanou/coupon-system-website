@@ -1,0 +1,39 @@
+/* EmptyView.css */
+
+@keyframes moveAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    75% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .EmptyView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .EmptyView h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .EmptyView img {
+    max-width: 500px;
+    animation: moveAnimation 2s ease-in-out infinite;
+    transition: transform 0.3s ease;
+  }
+  

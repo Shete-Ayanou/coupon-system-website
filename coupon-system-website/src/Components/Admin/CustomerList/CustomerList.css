@@ -1,0 +1,15 @@
+.search-container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end; 
+  }
+  
+  
+  .search-container input {
+    height: 100%; /* אפשר לשים את הגובה כ-100% כדי שהשדה יתמלא את כל הגובה של ה- search-container */
+  }
+  
+  .search-container button {
+    height: 100%; /* גם לכפתור ניתן לשים את הגובה כ-100% כדי שיהיה באותו גובה כמו השדה */
+  }
+  

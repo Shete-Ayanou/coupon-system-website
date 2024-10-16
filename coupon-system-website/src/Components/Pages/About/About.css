@@ -1,0 +1,72 @@
+
+.About {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.About h1 {
+  font-size: 24px;
+  margin: 20px 0;
+  justify-content: left;
+  text-align: left; 
+  animation: colorChange 3s alternate infinite, textMove 3s ease-in-out infinite;
+
+
+}
+
+.About p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+}
+.About p::first-letter{
+  font-size: 20px;
+}
+
+.ContentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.VideoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for video */
+  overflow: hidden;
+}
+
+.VideoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+}
+
+
+
+@keyframes colorChange {
+  0%, 100% {
+    color: #FF5733; /* צבע התחילי */
+  }
+  50% {
+    color: #42A5F5; /* צבע הסיום */
+  }
+}
+
+@keyframes textMove {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); /* התזוזה נעשית לחצי הזמן */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+

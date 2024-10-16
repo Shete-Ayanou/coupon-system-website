@@ -1,0 +1,80 @@
+
+.card {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.company-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.company-image:hover {
+  transform: scale(1.1);
+}
+
+.company-details {
+  display: none;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover .company-details {
+  display: block;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #d11a1a;
+} 
+
+.company-details span:before {
+  content: "🏷️"; 
+  margin-right: 5px;
+
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+

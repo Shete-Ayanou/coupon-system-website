@@ -1,0 +1,65 @@
+.UpdateCoupon {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .UpdateCoupon h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .UpdateCoupon form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .UpdateCoupon label {
+    font-size: 16px;
+  }
+  
+  .UpdateCoupon input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .UpdateCoupon span {
+    color: red;
+    font-size: 14px;
+    margin-top: -6px;
+    margin-bottom: 10px;
+  }
+  
+  .UpdateCoupon button {
+    padding: 6px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .UpdateCoupon button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .Sb {
+    width: 150px; 
+    position: absolute; 
+    left: 250px;
+    top: 60%;
+    transform: translateY(80%); 
+  }
+
+
+  

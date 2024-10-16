@@ -1,0 +1,52 @@
+.Menu {
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px ;
+    
+}
+.Menu > *{
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+
+.Menu {
+    
+    font-size: 18px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.Menu a:hover {
+    
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out; 
+    color: #1fb433; 
+   
+}
+
+
+
+
+@keyframes resizeImage {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); 
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
+
+.B {
+    animation: resizeImage 2s alternate infinite; 
+    cursor: pointer; 
+}
+
+
+
+  

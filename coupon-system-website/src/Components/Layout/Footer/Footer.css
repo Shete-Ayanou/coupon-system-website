@@ -1,0 +1,26 @@
+.Footer {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Footer {
+    text-align: center;
+    background-color: #cfcec9;
+    color: #070606; 
+    padding: 10px; 
+}
+
+.Footer a {
+    text-decoration: none;
+    color: #328f68;
+    font-size: 40px; 
+    transition: color 0.3s ease; 
+}
+
+.Footer a:hover {
+    color: #fff; 
+}
+
+

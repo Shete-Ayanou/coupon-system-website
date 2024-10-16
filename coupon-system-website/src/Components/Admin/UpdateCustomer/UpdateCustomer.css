@@ -1,0 +1,58 @@
+/* UpdateCustomer.css */
+
+.UpdateCustomer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .UpdateCustomer h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .UpdateCustomer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .UpdateCustomer label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .UpdateCustomer input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .UpdateCustomer span {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  
+  .UpdateCustomer button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .UpdateCustomer button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
